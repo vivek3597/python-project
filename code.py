@@ -15,11 +15,6 @@ Bill_label=tk.Label(win,text="WELCOME TO HOTEL NSR",bg="black",fg="Snow",font=("
 Bill_label.grid(row=0,column=0,sticky="NSWE")
 rn = 100
 rntype=''
-# Python program to determine whether
-# the number is Armstrong number or not
-
-# Function to calculate x raised to
-# the power y
 def power(x, y):
 	
 	if y == 0:
@@ -29,10 +24,9 @@ def power(x, y):
 		
 	return x * power(x, y // 2) * power(x, y // 2)
 
-# Function to calculate order of the number
+
 def order(x):
 
-	# Variable to store of the number
 	n = 0
 	while (x != 0):
 		n = n + 1
